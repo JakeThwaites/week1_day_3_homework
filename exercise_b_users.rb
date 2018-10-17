@@ -65,8 +65,8 @@ p users["Avril"][:pets][0][:species]
 # 5. Get the smallest of Erik's lottery numbers
 p users["Erik"][:lottery_numbers].sort.reverse.last
 # 6. Return an array of Avril's lottery numbers that are even
-users["Avril"][:lottery_numbers].each do |x|
-  p x if x.even? end
+users["Avril"][:lottery_numbers].each do |number|
+  p number if number.even? end
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 users["Erik"][:lottery_numbers].push(7)
 p users["Erik"][:lottery_numbers]
