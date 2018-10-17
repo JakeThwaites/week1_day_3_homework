@@ -21,6 +21,13 @@ p stops
 p stops.length
 # 8. How many ways can we return `"Falkirk High"` from the array?
 p stops[2]
+
+if stops.include? "Falkirk High"
+  return "Falkirk High"
+else puts "asdfahsfiuqhiufhqwerufqweufh"
+end
+
+
 # 9. Reverse the positions of the stops in the array
 p stops.reverse
 # 10. Print out all the stops using a for loop
